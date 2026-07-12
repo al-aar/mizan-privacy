@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Mizan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    color: #1a1a1a;
+    line-height: 1.8;
+    background: #fff;
+  }
+  header { margin-bottom: 40px; border-bottom: 2px solid #0d9488; padding-bottom: 24px; }
+  .logo { font-size: 32px; font-weight: 800; color: #0d9488; letter-spacing: -1px; }
+  .logo span { color: #0f172a; }
+  .arabic { font-size: 22px; color: #0d9488; margin-top: 4px; direction: rtl; }
+  h1 { font-size: 26px; font-weight: 700; color: #0f172a; margin: 24px 0 8px; }
+  h2 { font-size: 18px; font-weight: 700; color: #0d9488; margin: 36px 0 12px; }
+  h3 { font-size: 15px; font-weight: 600; color: #0f172a; margin: 20px 0 8px; }
+  p { margin-bottom: 14px; color: #374151; }
+  ul { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 8px; color: #374151; }
+  .last-updated {
+    display: inline-block;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    color: #166534;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 32px;
+  }
+  .highlight {
+    background: #f0fdf4;
+    border-left: 4px solid #0d9488;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 20px 0;
+  }
+  .highlight p { margin: 0; font-weight: 500; color: #0f172a; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #f8fafc; padding: 10px 14px; text-align: left; font-size: 13px; font-weight: 600; color: #6b7280; border-bottom: 1px solid #e5e7eb; }
+  td { padding: 10px 14px; font-size: 14px; border-bottom: 1px solid #f3f4f6; color: #374151; }
+  a { color: #0d9488; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Mizan<span>.</span></div>
+  <div class="arabic">ميزان</div>
+</header>
+
+<h1>Privacy Policy</h1>
+<div class="last-updated">Last updated: July 2026</div>
+
+<div class="highlight">
+  <p>🔒 Mizan is built with privacy at its core. We do not collect personal data, require account registration, or share your information with third parties.</p>
+</div>
+
+<p>This Privacy Policy explains how Mizan ("we", "our", or "the app") handles information when you use our iOS application. Mizan is an Islamic companion app providing prayer times, Qibla direction, mosque timetables, and prayer notifications.</p>
+
+<h2>1. Information We Collect</h2>
+
+<h3>Location Data</h3>
+<p>Mizan requests access to your device's location to:</p>
+<ul>
+  <li>Calculate accurate prayer times based on your exact coordinates</li>
+  <li>Determine your Qibla (direction to the Kaaba in Makkah)</li>
+  <li>Display your city name in the app header</li>
+</ul>
+<p><strong>Your location is never transmitted to our servers, stored, or shared with any third party.</strong> It is used exclusively on your device for the above purposes.</p>
+
+<h3>Compass / Motion Data</h3>
+<p>The Qibla screen uses your device's compass sensor to show the direction of the Kaaba. This data is processed entirely on your device and is never stored or transmitted.</p>
+
+<h3>Preferences & Settings</h3>
+<p>Mizan stores your preferences locally on your device using AsyncStorage, including:</p>
+<ul>
+  <li>Selected prayer calculation method (e.g. Muslim World League)</li>
+  <li>Prayer mode (Auto Calculate or Mosque Timetable)</li>
+  <li>Selected mosque</li>
+  <li>Notification settings and reminder preferences per prayer</li>
+  <li>Theme preference (Light, Dark, or Auto)</li>
+</ul>
+<p>All preferences are stored on your device only and are never transmitted to any server.</p>
+
+<h3>Notification Data</h3>
+<p>If you enable prayer notifications, Mizan schedules local notifications on your device. These are processed entirely on your device — no notification content or scheduling data is sent to external servers.</p>
+
+<h2>2. Information We Do Not Collect</h2>
+
+<table>
+  <tr><th>Data Type</th><th>Collected?</th></tr>
+  <tr><td>Name or personal identity</td><td>❌ Never</td></tr>
+  <tr><td>Email address</td><td>❌ Never</td></tr>
+  <tr><td>Account credentials</td><td>❌ No account required</td></tr>
+  <tr><td>Device identifiers</td><td>❌ Never</td></tr>
+  <tr><td>Usage analytics or tracking</td><td>❌ Never</td></tr>
+  <tr><td>Advertising identifiers</td><td>❌ Never</td></tr>
+  <tr><td>Location history</td><td>❌ Never stored</td></tr>
+  <tr><td>Payment information</td><td>❌ Never</td></tr>
+</table>
+
+<h2>3. Third-Party Services</h2>
+<p>Mizan uses the following external services to function:</p>
+
+<h3>Aladhan API (aladhan.com)</h3>
+<p>Used to calculate prayer times. When calculating, your latitude, longitude, and selected calculation method are sent to Aladhan's servers. No personal information is included. See <a href="https://aladhan.com/privacy-policy" target="_blank">Aladhan's Privacy Policy</a>.</p>
+
+<h3>Mizan Mosque Timetable API</h3>
+<p>When you select a mosque in Mosque Timetable mode, the app contacts our API server to retrieve live prayer and Jamaat times for that mosque. Only the mosque identifier is sent — no personal data, no location coordinates. The API is hosted on secure infrastructure and does not log user requests.</p>
+
+<p>Supported mosques at launch:</p>
+<ul>
+  <li>Glasgow Central Mosque</li>
+  <li>Edinburgh Central Mosque</li>
+  <li>East London Mosque</li>
+  <li>Birmingham Central Mosque</li>
+</ul>
+
+<h2>4. How We Use Information</h2>
+<p>The limited data described above is used solely to:</p>
+<ul>
+  <li>Calculate and display accurate prayer times for your location</li>
+  <li>Show the correct Qibla direction</li>
+  <li>Retrieve live mosque timetable data</li>
+  <li>Schedule prayer notifications on your device</li>
+  <li>Remember your preferences between sessions</li>
+</ul>
+
+<h2>5. Data Storage & Security</h2>
+<p>All app preferences are stored locally on your device using iOS's secure storage mechanisms. We do not operate databases containing personal user information. Uninstalling Mizan from your device permanently removes all locally stored data.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>Mizan is suitable for users of all ages including children. We do not knowingly collect any personal information from any user, including children under the age of 13. No account creation or personal information is required to use the app.</p>
+
+<h2>7. Your Rights (UK GDPR)</h2>
+<p>Since Mizan does not collect or process personal data on our servers, traditional data subject rights (access, rectification, erasure) do not apply in the conventional sense. However:</p>
+<ul>
+  <li><strong>Right to erasure:</strong> Uninstalling the app removes all locally stored data</li>
+  <li><strong>Right to portability:</strong> Your preferences exist only on your device</li>
+  <li><strong>Questions:</strong> Contact us at the address below for any privacy concerns</li>
+</ul>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time as we add new features. Any changes will be reflected with an updated date at the top of this page. For significant changes, we will notify users through the app. Continued use of Mizan after changes constitutes acceptance of the updated policy.</p>
+
+<h2>9. Contact Us</h2>
+<p>If you have any questions, concerns, or requests regarding this Privacy Policy or Mizan's privacy practices, please contact us:</p>
+<ul>
+  <li><strong>Email:</strong> <a href="mailto:alaarservices@protonmail.com">alaarservices@protonmail.com</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/al-aar/mizan" target="_blank">github.com/al-aar/mizan</a></li>
+  <li><strong>Privacy Policy URL:</strong> <a href="https://al-aar.github.io/mizan-privacy">al-aar.github.io/mizan-privacy</a></li>
+</ul>
+
+<footer>
+  <span>© 2026 Mizan — ميزان. All rights reserved.</span>
+  <span>Made with ❤️ for the Ummah</span>
+</footer>
+
+</body>
+</html>
